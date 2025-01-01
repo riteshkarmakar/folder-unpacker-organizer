@@ -1,21 +1,21 @@
 import sys, json, logging, requests
 from pathlib import Path
 
-from PyQt6.QtWidgets import QApplication, QMainWindow, QTextEdit, QFileDialog, QMessageBox, QInputDialog
-from PyQt6.QtGui import QRegularExpressionValidator, QDesktopServices
-from PyQt6.QtCore import QRegularExpression, QUrl
+from PySide6.QtWidgets import QApplication, QMainWindow, QTextEdit, QFileDialog, QMessageBox, QInputDialog
+from PySide6.QtGui import QRegularExpressionValidator, QDesktopServices
+from PySide6.QtCore import QRegularExpression, QUrl
 
 from ui.main_window import Ui_MainWindow
-from assets import resources_rc
+from ui import resources_rc
 
 from folder_unpacker import FolderUnpacker
 from folder_organiser import FolderOrganiser
 
 
 CURRENT_VERSION = "v1.0.0"
-PREFERENCES_PATH = Path("preferences.json")
-EXTENSIONS_MAP_PATH = Path("extensions_map.json")
-ABOUT_MESSAGE_PATH = Path("assets/html/about_message.html")
+PREFERENCES_PATH = Path("json/preferences.json")
+EXTENSIONS_MAP_PATH = Path("json/extensions_map.json")
+ABOUT_MESSAGE_PATH = Path("html/about_message.html")
 
 
 class QTextEditLogger(logging.Handler):

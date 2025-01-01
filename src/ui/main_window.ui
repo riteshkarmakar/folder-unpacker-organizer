@@ -23,8 +23,8 @@
    </size>
   </property>
   <property name="windowIcon">
-   <iconset resource="../assets/resources.qrc">
-    <normaloff>:/assets/icons/app_icon.ico</normaloff>:/assets/icons/app_icon.ico</iconset>
+   <iconset resource="resources.qrc">
+    <normaloff>:/icons/app_icon.ico</normaloff>:/icons/app_icon.ico</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -80,8 +80,8 @@
            <string> Browse</string>
           </property>
           <property name="icon">
-           <iconset resource="../assets/resources.qrc">
-            <normaloff>:/assets/icons/folder_open.svg</normaloff>:/assets/icons/folder_open.svg</iconset>
+           <iconset resource="resources.qrc">
+            <normaloff>:/icons/folder_open.svg</normaloff>:/icons/folder_open.svg</iconset>
           </property>
          </widget>
         </item>
@@ -273,8 +273,8 @@
       </widget>
       <widget class="QWidget" name="tab_settings">
        <attribute name="icon">
-        <iconset resource="../assets/resources.qrc">
-         <normaloff>:/assets/icons/settings.svg</normaloff>:/assets/icons/settings.svg</iconset>
+        <iconset resource="resources.qrc">
+         <normaloff>:/icons/settings.svg</normaloff>:/icons/settings.svg</iconset>
        </attribute>
        <attribute name="title">
         <string>Settings</string>
@@ -337,8 +337,8 @@
                 <string>Add</string>
                </property>
                <property name="icon">
-                <iconset resource="../assets/resources.qrc">
-                 <normaloff>:/assets/icons/add.svg</normaloff>:/assets/icons/add.svg</iconset>
+                <iconset resource="resources.qrc">
+                 <normaloff>:/icons/add.svg</normaloff>:/icons/add.svg</iconset>
                </property>
               </widget>
              </item>
@@ -348,8 +348,8 @@
                 <string>Rename</string>
                </property>
                <property name="icon">
-                <iconset resource="../assets/resources.qrc">
-                 <normaloff>:/assets/icons/edit.svg</normaloff>:/assets/icons/edit.svg</iconset>
+                <iconset resource="resources.qrc">
+                 <normaloff>:/icons/edit.svg</normaloff>:/icons/edit.svg</iconset>
                </property>
               </widget>
              </item>
@@ -359,8 +359,8 @@
                 <string>Delete</string>
                </property>
                <property name="icon">
-                <iconset resource="../assets/resources.qrc">
-                 <normaloff>:/assets/icons/delete.svg</normaloff>:/assets/icons/delete.svg</iconset>
+                <iconset resource="resources.qrc">
+                 <normaloff>:/icons/delete.svg</normaloff>:/icons/delete.svg</iconset>
                </property>
               </widget>
              </item>
@@ -424,8 +424,8 @@
                 <string>Add</string>
                </property>
                <property name="icon">
-                <iconset resource="../assets/resources.qrc">
-                 <normaloff>:/assets/icons/add.svg</normaloff>:/assets/icons/add.svg</iconset>
+                <iconset resource="resources.qrc">
+                 <normaloff>:/icons/add.svg</normaloff>:/icons/add.svg</iconset>
                </property>
               </widget>
              </item>
@@ -435,8 +435,8 @@
                 <string>Delete</string>
                </property>
                <property name="icon">
-                <iconset resource="../assets/resources.qrc">
-                 <normaloff>:/assets/icons/delete.svg</normaloff>:/assets/icons/delete.svg</iconset>
+                <iconset resource="resources.qrc">
+                 <normaloff>:/icons/delete.svg</normaloff>:/icons/delete.svg</iconset>
                </property>
               </widget>
              </item>
@@ -533,8 +533,8 @@
   </widget>
   <action name="action_run">
    <property name="icon">
-    <iconset resource="../assets/resources.qrc">
-     <normaloff>:/assets/icons/run.png</normaloff>:/assets/icons/run.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/run.png</normaloff>:/icons/run.png</iconset>
    </property>
    <property name="text">
     <string>Run</string>
@@ -545,8 +545,8 @@
   </action>
   <action name="action_clear">
    <property name="icon">
-    <iconset resource="../assets/resources.qrc">
-     <normaloff>:/assets/icons/clear.png</normaloff>:/assets/icons/clear.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/clear.png</normaloff>:/icons/clear.png</iconset>
    </property>
    <property name="text">
     <string>Clear</string>
@@ -557,8 +557,8 @@
   </action>
   <action name="action_exit">
    <property name="icon">
-    <iconset resource="../assets/resources.qrc">
-     <normaloff>:/assets/icons/exit.png</normaloff>:/assets/icons/exit.png</iconset>
+    <iconset resource="resources.qrc">
+     <normaloff>:/icons/exit.png</normaloff>:/icons/exit.png</iconset>
    </property>
    <property name="text">
     <string>Exit</string>
@@ -590,7 +590,7 @@
   </action>
  </widget>
  <resources>
-  <include location="../assets/resources.qrc"/>
+  <include location="resources.qrc"/>
  </resources>
  <connections/>
 </ui>
