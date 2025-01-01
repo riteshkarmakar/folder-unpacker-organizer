@@ -1,0 +1,83 @@
+{
+	"Text Files": [
+		".txt",
+		".rtf",
+		".odt"
+	],
+	"Word Documents": [
+		".doc",
+		".docx"
+	],
+	"Excel Workbooks": [
+		".xls",
+		".xlsx",
+		".ods",
+		".csv"
+	],
+	"Presentations": [
+		".ppt",
+		".pptx",
+		".odp"
+	],
+	"Images": [
+		".jpg",
+		".jpeg",
+		".png",
+		".gif",
+		".bmp",
+		".tiff",
+		".webp"
+	],
+	"Audio": [
+		".mp3",
+		".wav",
+		".flac",
+		".aiff",
+		".ogg"
+	],
+	"Archives": [
+		".zip",
+		".rar",
+		".7z"
+	],
+	"Programs": [
+		".exe",
+		".msi"
+	],
+	"Programming Files and Scripts": [
+		".py",
+		".pyw",
+		".js",
+		".php",
+		".sql",
+		".c",
+		".cpp",
+		".java"
+	],
+	"eBooks": [
+		".epub",
+		".mobi"
+	],
+	"Web Pages": [
+		".html"
+	],
+	"Adobe Files": [
+		".psd",
+		".psdt",
+		".ai",
+		".indd"
+	],
+	"Videos": [
+		".mp4",
+		".avi",
+		".mov",
+		".mkv",
+		".wmv"
+	],
+	"Icons": [
+		".ico"
+	],
+	"PDFs": [
+		".pdf"
+	]
+}

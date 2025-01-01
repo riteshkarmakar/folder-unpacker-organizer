@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="assets">
+    <file>icons/add.svg</file>
+    <file>icons/app_icon.ico</file>
+    <file>icons/clear.png</file>
+    <file>icons/delete.svg</file>
+    <file>icons/edit.svg</file>
+    <file>icons/exit.png</file>
+    <file>icons/folder_open.svg</file>
+    <file>icons/run.png</file>
+    <file>icons/settings.svg</file>
+  </qresource>
+</RCC>
